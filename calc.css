@@ -1,0 +1,45 @@
+.calc{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 30%;
+    height: 600px;
+    text-align: center;
+    color: purple;
+    font-weight: 800;
+    font-size: 20px;
+}
+.lator{
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+    border-top: 1px solid grey;
+    font-size: 18px;
+    padding-top: 10px;
+}
+/* label{
+    margin: 20px;
+    border: 1px  solid red
+} */
+input, select{
+    width: 100px;
+    height: 40px;
+}
+button{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: purple;
+    height: 30px;
+}
+button:active{
+  border: 1px solid blue;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+span{
+    font-size: 22px;
+}
